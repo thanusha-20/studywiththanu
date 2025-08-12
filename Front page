@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head> <title>studywiththanu</title>
+ <style>          
+            
+          .section{
+            text-align:center; 
+          padding:50px; }
+           
+          .header{
+              text-align:center;
+              background: linear-gradient(to right , lavender,grey);
+              color:white;
+              padding:40px 0;
+            }
+
+            .footer{
+              text-align:center;
+              background:linear-gradient(to right,grey,lavender);
+              color:white;
+              padding:20px;  }
+
+            .center-img{
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+               border-radius: 1000px;
+               width:  600px;
+               height: 400px;
+            }
+           </style>
+                  
+    </head>        
+            <body>   
+          <header class="header">
+                 <h1>WELCOME TO STUDY WITH THANU</h1>
+                 <p > <i>your one-step solution for all your study needs</i></p>
+           </header>
+
+           <img src="frnt.png"
+           alt="study with thanu" style="width: 50px height:100px"
+           class="center-img">
+
+          <div class="section">
+            <h3><i><b>let's get started</b></i></h3>
+            <a href="webpage.html">
+            <button style="font-size: 24px; padding: 10px 30px;">START</button>   
+                           </a>
+                     <h2>click on the above <i><u>START</u></i> to enter the site....</h2>
+        </div>
+        <footer class="footer">
+          <h2>studywiththanu && Thank you for visiting!!!!!!     </h2>
+          <h3> @copyright studywiththanu.reserved</h3>
+        </footer>
+        </body>  
+          
+</html>
