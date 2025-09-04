@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head> <title>studywiththanu</title>
+<head> 
+<i><title>studywiththanu</title></i>
  <style>          
             
           .section{
@@ -28,10 +29,7 @@
                width:  600px;
                height: 400px;
             }
-              
-
-               
-           </style>
+            </style>
                   
     </head>        
             <body>   
