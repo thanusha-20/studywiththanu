@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head> 
-<i><title>studywiththanu</title></i>
+<head> <title>studywiththanu</title>
  <style>          
             
           .section{
@@ -29,7 +28,22 @@
                width:  600px;
                height: 400px;
             }
-            </style>
+            .start-button{
+              background-color: grey;
+              border: none;
+              color: black;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+              border-radius: 12px;
+            }
+
+               
+           </style>
                   
     </head>        
             <body>   
@@ -45,7 +59,7 @@
           <div class="section">
             <h3><i><b>let's get started</b></i></h3>
             <a href="webpage.html">
-            <button style="font-size: 24px; padding: 10px 30px;">START</button>   
+            <button class ="start-button">START</button>   
                            </a>
               
         </div>
