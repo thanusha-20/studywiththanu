@@ -59,6 +59,101 @@
             width:500px;
             min-height: 50px;
          }
+         .pst-button{
+            border-radius: 30px;
+            background-color: grey;
+            border: 1px solid black;
+            color:black;
+            height: 40px;
+            width: 350px;
+            font-size: 15px;
+         }
+            .cs-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+            .ds-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+            .kan-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+            .eng-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+                button{
+                    cursor: pointer;
+                }
+            .os-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+            .jav-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+            .DA-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+            .kam-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+            .emg-button{
+                border-radius: 30px;
+                background-color: grey;
+                border: 1px solid black;
+                color:black;
+                height: 40px;
+                width: 350px;
+                font-size: 15px;
+            }
+
+              
    </style>
             <div class="frontpage">
         
@@ -69,18 +164,23 @@
                    <div class="firstsem">
                 <h3><i>First sem SEP syllabus for BCA:- </h3></i>
                 <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>           
+               
                 <a href="pst.html">
-                <h5>>Problem Solving technic</h5></a>
+             <h5><button class="pst-button">>>Problem Solving Technic</h5></a></button>
+               
                 <a href="ca.html">
-                <h5>>Computer Architecture</h5>
+                <h5><button class="cs-button">>>Computer Architecture</h5></a></button>
                 </a>
-               <a href="Discrete.html">
-                <h5>> Discrete Structure  </h5>
+               
+                <a href="Discrete.html">
+                <h5><button class="ds-button">>> Discrete Structure  </h5></a></button>
                 </a>
+               
                 <a href="kannada1sem.html">
-                <h5>>Kannada  </h5></a>
-               <a href="eng1sem.html">
-                <h5>> English</h5>
+                <h5><button class="kan-button">>>Kannada  </h5></a>
+               
+             <a href="eng1sem.html">
+                <h5><button class="eng-button"> >>English</h5></a></button>
                </a>
               </h5>
                 <hr>
@@ -93,14 +193,21 @@
             <div class="secondsem">
                 <h3><i>Second sem SEP syllabus for BCA:-</h3> </i>
                 <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>  
-             <a href="operatingsys.html"><h5>>Operating System</h5>   
-                </a> 
-                <a href="java.html"><h5>>Object oriented programming Java</h5></a>
-                <a href="datastruct.html">  <h5>>Data Structure</h5></a>
-            
-                <a href="kannada2sem.html"> <h5>>Kannada</h5></a>
+             
+                <a href="operatingsys.html">
+                <h5><button class="os-button">>>Operating System</h5> </button> </a> 
                 
-                <a href="english2ndsem.html"> <h5>>English</h5></a>
+                <a href="java.html"> 
+                <h5><button class ="jav-button">>>Object oriented programming Java</h5></a></button>
+             
+                <a href="datastruct.html">  
+              <h5><button class="DA-button">>>Data Structure</h5></a></button>
+            
+                <a href="kannada2sem.html">
+             <h5><button class="kam-button">>>Kannada</h5></a></button>
+                
+                <a href="english2ndsem.html"> 
+            <h5><button class="emg-button">>>English</h5></a></button>
                             
                 <hr></div></div>
 <footer>
