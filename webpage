@@ -1,18 +1,13 @@
 <!DOCTYPE HTML>
 <HTML>
-    <HEAD>
-        <title>studywiththanu</title>
+    <HEAD> <title>studywiththanu</title>
         <body>
             <style>
-                .frontpage{
+        .frontpage{
             text-align:center;
              }
-                 h1.ca {  background-color:lavender; }
-        header {
-                      background: #f0ad4e;
-                     padding: 15px;
-                      font-size: 1.5em;
-                }
+         h1.ca {  background-color:lavender; }
+       
         footer {
             background:lavender;
             color: black;
@@ -61,96 +56,98 @@
          }
          .pst-button{
             border-radius: 30px;
-            background-color: grey;
-            border: 1px solid black;
+           border: 1px solid black;
             color:black;
             height: 40px;
             width: 350px;
             font-size: 15px;
+            margin-bottom: 10px;
          }
-            .cs-button{
+        .cs-button{
                 border-radius: 30px;
-                background-color: grey;
+                
                 border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
             .ds-button{
                 border-radius: 30px;
-                background-color: grey;
+                
                 border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
             .kan-button{
                 border-radius: 30px;
-                background-color: grey;
-                border: 1px solid black;
+               border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
             .eng-button{
                 border-radius: 30px;
-                background-color: grey;
-                border: 1px solid black;
+                 border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
                 button{
                     cursor: pointer;
                 }
             .os-button{
                 border-radius: 30px;
-                background-color: grey;
                 border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
             .jav-button{
                 border-radius: 30px;
-                background-color: grey;
                 border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
             .DA-button{
                 border-radius: 30px;
-                background-color: grey;
                 border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
             .kam-button{
                 border-radius: 30px;
-                background-color: grey;
-                border: 1px solid black;
+              border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
             .emg-button{
                 border-radius: 30px;
-                background-color: grey;
                 border: 1px solid black;
                 color:black;
                 height: 40px;
                 width: 350px;
                 font-size: 15px;
+                 margin-bottom: 10px;
             }
 
               
@@ -160,13 +157,13 @@
                 <hr><h1 class="ca"> HEY WELCOME!!!!......</h1><hr>
                 <h2>Here are Resources which u need:-<hr></h2>
 
-                    <div class="sem-container">
+                   <div class="sem-container">
                    <div class="firstsem">
                 <h3><i>First sem SEP syllabus for BCA:- </h3></i>
-                <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>           
-               
+               <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>           
+               <hr></hr>
                 <a href="pst.html">
-             <h5><button class="pst-button">>>Problem Solving Technic</h5></a></button>
+                <h5><button class="pst-button">>>Problem Solving Technic</h5></a></button>
                
                 <a href="ca.html">
                 <h5><button class="cs-button">>>Computer Architecture</h5></a></button>
@@ -193,7 +190,7 @@
             <div class="secondsem">
                 <h3><i>Second sem SEP syllabus for BCA:-</h3> </i>
                 <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>  
-             
+                <hr></hr>
                 <a href="operatingsys.html">
                 <h5><button class="os-button">>>Operating System</h5> </button> </a> 
                 
@@ -212,7 +209,7 @@
                 <hr></div></div>
 <footer>
         &copy; 2025 Study With Thanu. All rights reserved.
-    </footer>
+ </footer>
             </div>
             
         
