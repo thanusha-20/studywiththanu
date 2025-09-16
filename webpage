@@ -5,6 +5,7 @@
             <style>
         .frontpage{
             text-align:center;
+            
              }
          h1.ca {  background-color:lavender; }
        
@@ -30,31 +31,33 @@
         h4{
             margin-top: 0px;
         }
+    
        
         .firstsem,.secondsem{
             background-color:whitesmoke;
             box-shadow: 0 2px 4px;
-            margin:10px auto;
+            margin: 10px auto;
             width:500px;
             min-height:50px;
             border:2px solid;
-            border-radius:10px;
+            border-radius:30px;
         }   
          .secondsem{
             margin:10px auto;       }
 
          .sem-container {
-            display:flex;
+            display:box;
             justify-content:center;
             gap: 10px;
-            margin:10px auto;
-
+            margin: 10px;
+         
          }
          .firstsem,.secondsem{
             width:500px;
             min-height: 50px;
+
          }
-         .pst-button{
+         .pst-button,.cs-button,.ds-button,.kan-button,.eng-button,.os-button,.jav-button,.DA-button,.kam-button,.emg-button{    
             border-radius: 30px;
            border: 1px solid black;
             color:black;
@@ -63,94 +66,8 @@
             font-size: 15px;
             margin-bottom: 10px;
          }
-        .cs-button{
-                border-radius: 30px;
-                
-                border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-            .ds-button{
-                border-radius: 30px;
-                
-                border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-            .kan-button{
-                border-radius: 30px;
-               border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-            .eng-button{
-                border-radius: 30px;
-                 border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-                button{
-                    cursor: pointer;
-                }
-            .os-button{
-                border-radius: 30px;
-                border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-            .jav-button{
-                border-radius: 30px;
-                border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-            .DA-button{
-                border-radius: 30px;
-                border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-            .kam-button{
-                border-radius: 30px;
-              border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-            .emg-button{
-                border-radius: 30px;
-                border: 1px solid black;
-                color:black;
-                height: 40px;
-                width: 350px;
-                font-size: 15px;
-                 margin-bottom: 10px;
-            }
-
-              
+        
+           
    </style>
             <div class="frontpage">
         
@@ -164,7 +81,9 @@
                <hr></hr>
                 <a href="pst.html">
                 <h5><button class="pst-button">>>Problem Solving Technic</h5></a></button>
-               
+
+
+                
                 <a href="ca.html">
                 <h5><button class="cs-button">>>Computer Architecture</h5></a></button>
                 </a>
@@ -180,7 +99,7 @@
                 <h5><button class="eng-button"> >>English</h5></a></button>
                </a>
               </h5>
-                <hr>
+                
                 </a></div>
 
 
