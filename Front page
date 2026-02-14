@@ -2,10 +2,9 @@
 <html>
 <head> <title>studywiththanu</title>
  <style>          
-            
-          .section{
+            .section{
             text-align:center; 
-          padding:50px; }
+          padding:50px; 
            
           .header{
               text-align:center;
