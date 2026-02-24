@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studywiththanu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
+            text-align: center;
+            background: linear-gradient(to left, #808080, #E6E6FA);
+            color: white;
+            padding: 40px 0;
+        }
+
+        .section {
+            text-align: center;
+            padding: 50px;
+            flex-grow: 1; /* Pushes footer to the bottom */
+        }
+
+        .center-img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%; /* Cleaner circle than 1000px */
+            width: 400px; /* Adjusted for better aspect ratio */
+            height: 400px;
+            object-fit: cover; /* Prevents image stretching */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .start-button {
+            background-color: #808080;
+            border: 1px solid black;
+            color: white;
+            padding: 15px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .start-button:hover {
+            background-color: #E6E6FA;
+            color: black;
+            transform: scale(1.05);
+        }
+
+        .footer {
+            text-align: center;
+            background: linear-gradient(to right, #808080, #E6E6FA);
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>WELCOME TO STUDY WITH THANU</h1>
+        <p><i>Your one-step solution for all your study needs</i></p>
+    </header>
+
+    <img src="frnt.png" alt="study with thanu" class="center-img">
+
+    <div class="section">
+        <h3><i><b>Let's get started</b></i></h3>
+        <a href="webpage.html">
+            <button class="start-button">START</button>
+        </a>
+    </div>
+
+    <footer class="footer">
+        <h2>StudyWithThanu | Thank you for visiting!</h2>
+        <p>&copy; 2026 studywiththanu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
