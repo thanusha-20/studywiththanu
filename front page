@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>studywiththanu</title>
+    <style>
+        body { margin: 0; font-family: sans-serif; padding-bottom: 60px; }
+        .frontpage { text-align: center; }
+        h1.ca { background-color: lavender; padding: 10px; margin: 0; }
+        
+        .sem-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px;
+        }
+        
+        .firstsem, .secondsem {
+            background-color: whitesmoke;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 450px;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 30px;
+        }
+
+        /* Cleaned up button styles */
+        .btn-link {
+            display: block;
+            text-decoration: none;
+            margin-bottom: 15px;
+        }
+
+        .menu-button {
+            border-radius: 30px;
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+            height: 45px;
+            width: 80%;
+            font-size: 15px;
+            cursor: pointer;
+            transition: transform 0.2s; /* Smooth hover instead of shaking */
+        }
+
+        .menu-button:hover {
+            background-color: lavender;
+            transform: scale(1.02);
+        }
+
+        footer {
+            background: lavender;
+            color: black;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="frontpage">
+        <h1 class="ca">HEY WELCOME!!!!......</h1>
+        <hr>
+        <h2>Here are Resources which u need:-</h2>
+
+        <div class="sem-container">
+            <div class="firstsem">
+                <h3><i>First sem SEP syllabus for BCA:-</i></h3>
+                <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>
+                <hr>
+                <a href="pst.html" class="btn-link"><button class="menu-button">>> Problem Solving Technic</button></a>
+                <a href="ca.html" class="btn-link"><button class="menu-button">>> Computer Architecture</button></a>
+                <a href="Discrete.html" class="btn-link"><button class="menu-button">>> Discrete Structure</button></a>
+                <a href="kannada1sem.html" class="btn-link"><button class="menu-button">>> Kannada</button></a>
+                <a href="eng1sem.html" class="btn-link"><button class="menu-button">>> English</button></a>
+            </div>
+
+            <div class="secondsem">
+                <h3><i>Second sem SEP syllabus for BCA:-</i></h3>
+                <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>
+                <hr>
+                <a href="operatingsys.html" class="btn-link"><button class="menu-button">>> Operating System</button></a>
+                <a href="java.html" class="btn-link"><button class="menu-button">>> Object Oriented Programming Java</button></a>
+                <a href="datastruct.html" class="btn-link"><button class="menu-button">>> Data Structure</button></a>
+                <a href="kannada2sem.html" class="btn-link"><button class="menu-button">>> Kannada</button></a>
+                <a href="english2ndsem.html" class="btn-link"><button class="menu-button">>> English</button></a>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2025 Study With Thanu. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
