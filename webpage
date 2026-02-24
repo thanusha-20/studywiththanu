@@ -1,137 +1,88 @@
-<!DOCTYPE HTML>
-<HTML>
-    <HEAD> <title>studywiththanu</title>
-        <body>
-            <style>
-        .frontpage{
-            text-align:center;
-            
-             }
-         h1.ca {  background-color:lavender; }
-       
-        footer {
-            background:lavender;
-            color: black;
-            padding: 10px;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studywiththanu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .header {
             text-align: center;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            background: linear-gradient(to left, #808080, #E6E6FA);
+            color: white;
+            padding: 40px 0;
         }
-        h1 {
-            margin-bottom: 8px; 
-        }
-        h2 {
-            margin-top: 8px;
-            margin-bottom: 2px;
-        }
-        h3{
-            margin-top:10px;
-        }
-        h4{
-            margin-top: 0px;
-        }
-    
-       
-        .firstsem,.secondsem{
-            background-color:whitesmoke;
-            box-shadow: 0 2px 4px;
-            margin: 10px auto;
-            width:500px;
-            min-height:50px;
-            border:2px solid;
-            border-radius:30px;
-        }   
-         .secondsem{
-            margin:10px auto;       }
 
-         .sem-container {
-            display:box;
-            justify-content:center;
-            gap: 10px;
-            margin: 10px;
-         
-         }
-         .firstsem,.secondsem{
-            width:500px;
-            min-height: 50px;
+        .section {
+            text-align: center;
+            padding: 50px;
+            flex-grow: 1; /* Pushes footer to the bottom */
+        }
 
-         }
-         .pst-button,.cs-button,.ds-button,.kan-button,.eng-button,.os-button,.jav-button,.DA-button,.kam-button,.emg-button{    
+        .center-img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%; /* Cleaner circle than 1000px */
+            width: 400px; /* Adjusted for better aspect ratio */
+            height: 400px;
+            object-fit: cover; /* Prevents image stretching */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .start-button {
+            background-color: #808080;
+            border: 1px solid black;
+            color: white;
+            padding: 15px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
             border-radius: 30px;
-           border: 1px solid black;
-            color:black;
-            height: 40px;
-            width: 350px;
-            font-size: 15px;
-            margin-bottom: 10px;
-         }
-        
-           
-   </style>
-            <div class="frontpage">
-        
-                <hr><h1 class="ca"> HEY WELCOME!!!!......</h1><hr>
-                <h2>Here are Resources which u need:-<hr></h2>
+            transition: all 0.3s ease;
+        }
 
-                   <div class="sem-container">
-                   <div class="firstsem">
-                <h3><i>First sem SEP syllabus for BCA:- </h3></i>
-               <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>           
-               <hr></hr>
-                <a href="pst.html">
-                <h5><button class="pst-button">>>Problem Solving Technic</h5></a></button>
+        .start-button:hover {
+            background-color: #E6E6FA;
+            color: black;
+            transform: scale(1.05);
+        }
 
+        .footer {
+            text-align: center;
+            background: linear-gradient(to right, #808080, #E6E6FA);
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>WELCOME TO STUDY WITH THANU</h1>
+        <p><i>Your one-step solution for all your study needs</i></p>
+    </header>
 
-                
-                <a href="ca.html">
-                <h5><button class="cs-button">>>Computer Architecture</h5></a></button>
-                </a>
-               
-                <a href="Discrete.html">
-                <h5><button class="ds-button">>> Discrete Structure  </h5></a></button>
-                </a>
-               
-                <a href="kannada1sem.html">
-                <h5><button class="kan-button">>>Kannada  </h5></a>
-               
-             <a href="eng1sem.html">
-                <h5><button class="eng-button"> >>English</h5></a></button>
-               </a>
-              </h5>
-                
-                </a></div>
+    <img src="frnt.png" alt="study with thanu" class="center-img">
 
+    <div class="section">
+        <h3><i><b>Let's get started</b></i></h3>
+        <a href="webpage.html">
+            <button class="start-button">START</button>
+        </a>
+    </div>
 
-
-
-
-            <div class="secondsem">
-                <h3><i>Second sem SEP syllabus for BCA:-</h3> </i>
-                <h4>[DATA SCIENCE AND ARTIFICIAL INTELLIGENCE]</h4>  
-                <hr></hr>
-                <a href="operatingsys.html">
-                <h5><button class="os-button">>>Operating System</h5> </button> </a> 
-                
-                <a href="java.html"> 
-                <h5><button class ="jav-button">>>Object oriented programming Java</h5></a></button>
-             
-                <a href="datastruct.html">  
-              <h5><button class="DA-button">>>Data Structure</h5></a></button>
-            
-                <a href="kannada2sem.html">
-             <h5><button class="kam-button">>>Kannada</h5></a></button>
-                
-                <a href="english2ndsem.html"> 
-            <h5><button class="emg-button">>>English</h5></a></button>
-                            
-                <hr></div></div>
-<footer>
-        &copy; 2025 Study With Thanu. All rights reserved.
- </footer>
-            </div>
-            
-        
-        </body>
-    </HEAD>
-</HTML>
+    <footer class="footer">
+        <h2>StudyWithThanu | Thank you for visiting!</h2>
+        <p>&copy; 2026 studywiththanu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
